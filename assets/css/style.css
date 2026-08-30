@@ -22,7 +22,7 @@
 
   --font-head: "Montserrat", "Segoe UI", Arial, sans-serif;
   --font-body: "Inter", "Segoe UI", Arial, sans-serif;
-  --font-script: "Yellowtail", cursive;
+  --font-script: "Playfair Display", Georgia, serif;
 
   --container: 1180px;
   --radius-sm: 8px;
@@ -364,14 +364,14 @@ section { position: relative; }
 }
 .why-card .script {
   font-family: var(--font-script);
-  font-size: 32px;
-  line-height: 1.15;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.25;
   color: var(--gold-600);
-  margin-bottom: 6px;
+  margin-bottom: 8px;
   display: block;
 }
-.why-card:nth-child(2) .script { color: var(--navy-700); }
-.why-card:nth-child(3) .script { color: #a8632f; }
 .why-card h4 {
   font-size: 15px;
   font-weight: 700;
